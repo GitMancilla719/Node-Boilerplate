@@ -1,0 +1,10 @@
+const mongoose = require('mongoose')
+
+const Schema = new mongoose.Schema({
+  key1: {type: String, unique: true, required: true},
+  key2: {type: Number, required: true},
+})
+
+const modelname = mongoose.model('tableName', Schema)
+
+module.exports = modelname
