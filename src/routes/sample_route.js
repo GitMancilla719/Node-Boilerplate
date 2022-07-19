@@ -1,10 +1,10 @@
 const express = require('express')
-const router = express.Router()
+const sampleRouter = express.Router()
 
-// router.get('/endpoint', middleaware, controller)
-// router.post('/endpoint', middleaware, controller)
-// router.put('/endpoint', middleaware, controller)
-// router.patch('/endpoint', middleaware, controller)
-// router.delete('/endpoint', middleaware, controller)
+// sampleRouter.get('/endpoint', sampleMiddleaware, sampleController)
+// sampleRouter.post('/endpoint', sampleMiddleaware, sampleController)
+// sampleRouter.put('/endpoint', sampleMiddleaware, sampleController)
+// sampleRouter.patch('/endpoint', sampleMiddleaware, sampleController)
+// sampleRouter.delete('/endpoint', sampleMiddleaware, sampleController)
 
-module.exports = router
+module.exports = sampleRouter
